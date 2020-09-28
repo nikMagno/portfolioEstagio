@@ -1,0 +1,81 @@
+@media screen and (max-width: 768px){
+  /* SECTION HOME */
+  /* menu */
+  nav.desktop{
+    display: none;
+  }
+
+  nav.mobile{
+    display: block;
+  }
+
+  /* card */
+  section.home .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+  }
+
+  section.home .btn{
+    padding: 8px 2rem;
+    margin: 5%;
+  }
+
+  section.home .content02{
+    padding-top: 1rem;
+  }
+  /* Text */
+  section.text{
+    display: flex;
+    flex-direction: column;
+  }
+
+  section.text .line{
+    margin: 2rem 0;
+    padding: 0;
+    width: 100%;
+  }
+
+}
+
+@media screen and (max-width: 600px){
+
+  /* SECTION CV */
+  /* card */
+  section.cv .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  section.cv .title{
+    padding-top: 1rem;
+  }
+
+  /* SECTION CV */
+  /* INFO */
+  .grid-template{
+    grid-template-columns: 1fr;
+  }
+
+   /* SECTION PROJETOS */
+   .proj{
+    flex-direction: column;
+  }
+
+  .proj i{
+    margin-bottom: 1rem;
+  }
+
+}
+
+@media screen and (max-width: 320px){
+
+/* card IMG */
+.card img{
+  max-width: 250px;
+  
+}
+}
